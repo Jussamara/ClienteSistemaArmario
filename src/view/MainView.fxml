@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainViewController">
+   <children>
+      <Button fx:id="ButtonCadastrar" focusTraversable="false" layoutX="315.0" layoutY="66.0" mnemonicParsing="false" onAction="#HandleBtnCadArmario" prefHeight="33.0" prefWidth="130.0" text="Cadastrar Armário" />
+      <Button fx:id="ButtonVisualizar" focusTraversable="false" layoutX="475.0" layoutY="66.0" mnemonicParsing="false" onAction="#HandleBtnVisualizar" prefHeight="33.0" prefWidth="130.0" text="Visualizar Armários" />
+      <Button fx:id="EditDelete" focusTraversable="false" layoutX="629.0" layoutY="66.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="141.0" text="Editar/Excluir Armario" />
+      <AnchorPane fx:id="PaneChamada" layoutY="99.0" prefHeight="552.0" prefWidth="1100.0" />
+   </children>
+</AnchorPane>

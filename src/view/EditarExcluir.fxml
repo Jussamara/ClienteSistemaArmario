@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView prefHeight="552.0" prefWidth="587.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="154.0" text="Número do Armário" />
+            <TableColumn prefWidth="144.0" text="Disponibilidade" />
+            <TableColumn prefWidth="213.0" text="Localização" />
+        </columns>
+      </TableView>
+      <Button layoutX="947.0" layoutY="375.0" mnemonicParsing="false" text="Excluir" />
+      <Button layoutX="869.0" layoutY="375.0" mnemonicParsing="false" text="Editar" />
+      <Label layoutX="721.0" layoutY="163.0" text="ID:" />
+      <Label layoutX="670.0" layoutY="196.0" prefHeight="17.0" prefWidth="117.0" text="Número do Armário:" />
+      <Label layoutX="681.0" layoutY="227.0" text="Disponibilidade:" />
+      <Label layoutX="692.0" layoutY="259.0" text="Localização:" />
+      <TextField disable="true" layoutX="747.0" layoutY="159.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField layoutX="787.0" layoutY="192.0" prefHeight="25.0" prefWidth="40.0" />
+      <TextField disable="true" layoutX="773.0" layoutY="223.0" prefHeight="25.0" prefWidth="75.0" />
+      <TextArea layoutX="695.0" layoutY="276.0" prefHeight="90.0" prefWidth="314.0" />
+      <Label layoutX="666.0" layoutY="86.0" text="Dados Do Armario Selecionado:">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.9666666666666667" startY="0.7666666666666666">
+               <stops>
+                  <Stop color="#402994" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
