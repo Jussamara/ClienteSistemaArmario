@@ -10,7 +10,7 @@
       <Label layoutX="285.0" layoutY="206.0" text="Localização do Armário:" />
       <TextField fx:id="NumArmario" layoutX="403.0" layoutY="150.0" prefHeight="24.0" prefWidth="55.0" />
       <TextArea fx:id="LocalicacaoArmario" layoutX="285.0" layoutY="223.0" prefHeight="80.0" prefWidth="424.0" />
-      <Button layoutX="377.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleBtnCadastrarArmario" prefHeight="25.0" prefWidth="64.0" text="Salvar" />
-      <Button layoutX="482.0" layoutY="343.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Cancelar" />
+      <Button layoutX="503.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleBtnCadastrarArmario" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #4CAF50;" text="Salvar" textFill="WHITE" />
+      <Button layoutX="386.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleBtnCancelar" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #f44336;" text="Cancelar" textFill="WHITE" />
    </children>
 </AnchorPane>

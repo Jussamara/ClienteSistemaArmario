@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VisualizarController">
    <children>
-      <TableView fx:id="tabelaArmarios" layoutX="-2.0" layoutY="-1.0" prefHeight="552.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <TableView fx:id="tabelaArmarios" focusTraversable="false" layoutX="-2.0" layoutY="-1.0" prefHeight="552.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columns>
           <TableColumn fx:id="idArmario" prefWidth="126.0" text="ID" />
           <TableColumn fx:id="NumArmario" prefWidth="215.0" text="Número Armario" />

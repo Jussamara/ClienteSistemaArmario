@@ -8,7 +8,7 @@
    <children>
       <Button fx:id="ButtonCadastrar" focusTraversable="false" layoutX="315.0" layoutY="66.0" mnemonicParsing="false" onAction="#HandleBtnCadArmario" prefHeight="33.0" prefWidth="130.0" text="Cadastrar Armário" />
       <Button fx:id="ButtonVisualizar" focusTraversable="false" layoutX="475.0" layoutY="66.0" mnemonicParsing="false" onAction="#HandleBtnVisualizar" prefHeight="33.0" prefWidth="130.0" text="Visualizar Armários" />
-      <Button fx:id="EditDelete" focusTraversable="false" layoutX="629.0" layoutY="66.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="141.0" text="Editar/Excluir Armario" />
+      <Button fx:id="EditDelete" focusTraversable="false" layoutX="629.0" layoutY="66.0" mnemonicParsing="false" onAction="#HandleBtnEditarExcluir" prefHeight="33.0" prefWidth="141.0" text="Editar/Excluir Armario" />
       <AnchorPane fx:id="PaneChamada" layoutY="99.0" prefHeight="552.0" prefWidth="1100.0" />
    </children>
 </AnchorPane>

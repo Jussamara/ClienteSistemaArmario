@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AlertDeleteArmarioController">
+   <children>
+      <Button fx:id="OpSim" layoutX="153.0" layoutY="74.0" mnemonicParsing="false" onAction="#HandleOpSimDeletar" style="-fx-background-color: #5cb85c;" text="SIM" textFill="WHITE" />
+      <Button fx:id="OpNao" layoutX="247.0" layoutY="74.0" mnemonicParsing="false" onAction="#HandleOpNaoDeletar" style="-fx-background-color: #d9534f;" text="NÃO" textFill="WHITE" />
+      <Label layoutX="23.0" layoutY="35.0" text="Deseja realmente excluir o armário de número" />
+      <Label fx:id="nomeExclusaoLabel" layoutX="274.0" layoutY="35.0" />
+      <Label layoutX="297.0" layoutY="35.0" prefHeight="17.0" prefWidth="35.0" text="?" />
+   </children>
+</AnchorPane>

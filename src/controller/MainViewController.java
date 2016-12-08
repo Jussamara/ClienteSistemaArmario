@@ -48,11 +48,16 @@ public class MainViewController implements Initializable {
         Parent root = FXMLLoader.load(Principal.class.getResource("/view/CadArmario.fxml"));
         PaneChamada.getChildren().setAll(root);
     }
-       @FXML
+    @FXML
     public void HandleBtnVisualizar(ActionEvent event) throws IOException{
         Stage stage = new Stage();
         Parent root = FXMLLoader.load(Principal.class.getResource("/view/Visualizar.fxml"));
         PaneChamada.getChildren().setAll(root);
     }
-    
+    @FXML
+    public void HandleBtnEditarExcluir(ActionEvent event) throws IOException{
+        Stage stage = new Stage();
+        Parent root = FXMLLoader.load(Principal.class.getResource("/view/EditarExcluir.fxml"));//
+        PaneChamada.getChildren().setAll(root);
+    }
 }

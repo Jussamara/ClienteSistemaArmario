@@ -42,7 +42,7 @@ public class ClienteArmario {
 
     public <T> T getArmarios(GenericType<T> responseType) throws ClientErrorException {
         WebTarget resource = webTarget;
-        return resource.request(MediaType.APPLICATION_XML).get(responseType);
+        return resource.request(javax.ws.rs.core.MediaType.APPLICATION_XML).get(responseType);
     }
 
     public void alterarArmario(Object requestEntity, String id) throws ClientErrorException {
